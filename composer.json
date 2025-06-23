@@ -1,0 +1,21 @@
+{
+  "name": "kopi-bah-sipit/payment-system",
+  "description": "Coffee shop website with Midtrans payment integration",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "midtrans/midtrans-php": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
